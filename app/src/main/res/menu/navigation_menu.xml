@@ -4,24 +4,24 @@
     android:icon="@drawable/ic_audio"
     android:id="@+id/nav_audio_sederhana"
     android:title="Audio Sederhana"
-    android:onClick=".AudioSederhanaActivity"
+
     />
 <item
     android:icon="@drawable/ic_audio"
     android:id="@+id/nav_audio_streaming"
     android:title="Audio Streaming"
-    android:onClick=".AudioStreamingActivity"
+
     />
 <item
     android:icon="@drawable/ic_video"
     android:id="@+id/nav_video_sederhana"
     android:title="Video Sederhana"
-    android:onClick=".VideoSederhanaActivity"
+
     />
 <item
     android:icon="@drawable/ic_video"
     android:id="@+id/nav_video_streaming"
     android:title="Video Streaming"
-    android:onClick=".VideoStreamingActivity"
+
     />
 </menu>
