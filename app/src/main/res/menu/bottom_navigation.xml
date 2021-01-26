@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_audio_sederhana"
+        android:title="Audio sederhana"
+        android:icon="@drawable/ic_audio"/>
+
+    <item
+        android:id="@+id/nav_audio_streaming"
+        android:title="Audio streaming"
+        android:icon="@drawable/ic_audio"/>
+
+
+    <item
+        android:id="@+id/nav_video_sederhana"
+        android:title="Video sederhana"
+        android:icon="@drawable/ic_video"/>
+
+    <item
+        android:id="@+id/nav_video_streaming"
+        android:title="Video streaming"
+        android:icon="@drawable/ic_video"/>
+
+</menu>

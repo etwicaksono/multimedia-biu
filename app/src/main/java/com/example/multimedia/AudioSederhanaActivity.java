@@ -1,4 +1,4 @@
-package com.example.multimedia.menu;
+package com.example.multimedia;
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.multimedia.R;
 
 import java.io.IOException;
 
@@ -77,13 +75,13 @@ public class AudioSederhanaActivity extends AppCompatActivity {
         }
     }
 
-    public void enable(View... v) {
+    public void enable(View...v) {
         for (View mView : v) {
             mView.setEnabled(true);
         }
     }
 
-    public void disable(View... v) {
+    public void disable(View...v) {
         for (View mView : v) {
             mView.setEnabled(false);
         }

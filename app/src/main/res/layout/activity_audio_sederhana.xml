@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu.AudioSederhanaActivity">
+    tools:context=".AudioSederhanaActivity">
 
     <Button
         android:id="@+id/btnPlay"
@@ -33,4 +33,14 @@
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true" />
+
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="?android:attr/windowBackground"
+    app:menu="@menu/bottom_navigation"
+    />
 </RelativeLayout>
